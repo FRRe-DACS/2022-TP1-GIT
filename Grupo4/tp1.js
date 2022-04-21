@@ -14,3 +14,8 @@ console.log('Server running at http://127.0.0.1:8081/%27');
 function suma(a, b){
 	return a + b;
 }
+
+// Funcion cuadrado 
+function cuadrado(numero){
+	return numero * numero;
+}
