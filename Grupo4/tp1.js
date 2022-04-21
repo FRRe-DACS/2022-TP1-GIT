@@ -19,3 +19,8 @@ function suma(a, b){
 function cuadrado(numero){
 	return numero * numero;
 }
+
+// Funcion producto
+function producto(a, b){
+	return a * b;
+}
