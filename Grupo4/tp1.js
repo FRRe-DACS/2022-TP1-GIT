@@ -15,6 +15,11 @@ function suma(a, b){
 	return a + b;
 }
 
-function producto(a, b){
-	return a*b;
+// Funcion cuadrado 
+function cuadrado(numero){
+	return numero * numero;
+}
+
+function resta(a, b) {
+	return a-b;
 }
