@@ -20,7 +20,13 @@ function cuadrado(numero){
 	return numero * numero;
 }
 
+
+function resta(a, b) {
+	return a-b;
+}
+
 // Funcion producto
 function producto(a, b){
 	return a * b;
 }
+
