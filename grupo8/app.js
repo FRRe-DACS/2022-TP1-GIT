@@ -5,10 +5,15 @@ const app = express()
 require('colors');
 //-------------------------
 const puerto=3001
+//----motor de plantillas-----
+app.set('view engine', 'ejs')
+app.set('views', __dirname+'/view')
+//-------------------------
 app.get('/', function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-        res.write('<h1>Hello World</h1>');
-    res.end();
+    res.render('index', 
+    {
+        mensaje: "Somos Grupo 8"
+    })
 })
 
 app.listen(puerto)
