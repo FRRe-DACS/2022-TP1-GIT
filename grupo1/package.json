@@ -1,0 +1,14 @@
+{
+  "name": "grupo1",
+  "version": "1.0.0",
+  "description": "Grupo 1 - Aplicaciones Cliente Servidor - TP1 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grupo 1 - Jorge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
