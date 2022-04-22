@@ -25,6 +25,6 @@ function producto(x,y){
    return x * y
 }
 
-funcion cociente(x,y){
+function cociente(x,y){
    return x / y;
 }
