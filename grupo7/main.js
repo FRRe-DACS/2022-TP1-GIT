@@ -20,3 +20,7 @@ function resta(x,y){
 function suma(x,y){
    return x + y;
 }
+
+function producto(x,y){
+   return x * y
+}
