@@ -24,3 +24,7 @@ function suma(x,y){
 function producto(x,y){
    return x * y
 }
+
+funcion cociente(x,y){
+   return x / y;
+}
