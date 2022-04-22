@@ -16,3 +16,7 @@ console.log('Server running at http://127.0.0.1:8081/');
 function resta(x,y){
    return x - y;
 }
+
+function suma(x,y){
+   return x + y;
+}
